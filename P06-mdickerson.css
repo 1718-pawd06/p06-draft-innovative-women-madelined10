@@ -1,0 +1,167 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fluid Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fdffe8;
+    margin: 0px auto;
+    border: 1px solid black;
+    font-family: helvetica;
+}
+
+h1 {
+    padding: 10px;
+    font-family: helvetica;
+}
+
+header {
+    border-bottom: 2px solid #680a36;
+}
+
+#sidebarA {
+    width: 15%;
+    height: 565px;
+    float: left;
+    border-right: 2px solid #680a36;
+}
+
+main {
+    width: 63%;
+    height: 565px;
+    float: left;
+    padding-left: 6px;
+    font-family: helvetica;
+}
+
+#sidebarB {
+    width: 20%;
+    height: 565px;
+    float: right;
+    border-left: 2px solid #680a36;
+}
+footer {
+    clear: left;
+    border-top: 2px solid #680a36;
+	color: #680b0e;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+.blackwell {
+	color: #680b0e;
+	text-align: center; 
+	font-weight: bold;
+	font-family: helvetica;
+	}
+	
+
+	
+.img1 {
+	height: 39%;
+	width: 23%;
+	margin-right: 8px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	float: left;
+	border: 2px solid #0f1c70
+	}
+	
+.img3 {
+	height: 55%;
+	width: 37%;
+	float: right;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	margin-top: 8px;
+	border: 2px solid #0f1c70
+	}
+	
+.quote, .speaker {
+	font-weight: bold;
+	font-family: helvetica;
+	color: #680b0e;
+	}
+	
+.top {
+	text-transform: uppercase; 
+	font-family: helvetica; 
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #680b0e;
+	}
+	
+.bottom {
+	font-family: helvetica; 
+	text-align: center;
+	font-size: 14px;
+	}
+	
+.trivia {
+	text-align: center;
+	font-size: 25px;
+	color: #0f1c70;
+	font-family: helvetica;
+	}
+	
+h2 {
+	text-align: center;
+	color: #680b0e;
+	font-family: helvetica;
+	}
+	
+.bio {
+	color: #0f1c70;
+	font-family: helvetica;
+	}
+	
+.accomp {
+	color: #0f1c70;
+	text-align: center;
+	font-family: helvetica;
+	}
+	
+.facts {
+	color: #680b0e;
+	font-family: helvetica;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+	
+.years {
+	text-transform: uppercase; 
+	font-family: helvetica; 
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #680b0e;
+	}
+	
+.facts {
+	font-family: helvetica; 
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	}
+	
+.cite {
+	margin-left: 1060px;
+	font-size: 14px;
+	}
+	
+a:hover, a:focus {
+	background-color:#e1c3f7; 
+	color:#8e0e46;
+	font-size: 13pt;
+	}
+li {
+	font-size: 16px;
+	}
+
